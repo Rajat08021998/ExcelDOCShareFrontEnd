@@ -1,0 +1,27 @@
+.icons{
+    display: flex;
+    position: absolute;
+    right: 18px;
+}
+.icon{
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.counter{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    
+    padding: 5px;
+
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    color: white;
+}

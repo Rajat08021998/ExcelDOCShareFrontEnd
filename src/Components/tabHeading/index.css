@@ -1,0 +1,31 @@
+.scrollableTabs-container {
+  padding: 10px;
+  display: flex;
+  /* background: #f4ebff 0% 0% no-repeat padding-box; */
+  /* border: 1px solid #7f56d9; */
+  border-radius: 8px;
+  width: fit-content;
+  height: 30px;
+}
+.scrollableTabs-container > .scrollableTabs-imageBox {
+  /* background: #7f56d9; */
+  /* width: 65px;
+    height: 65px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 4px;
+}
+
+.scrollableTabs-container > .scrollableTabs-textBox {
+  /* height: 65px;
+    position: relative;
+    margin: auto; */
+  text-align: left;
+  display: flex;
+  /* color: #7f56d9; */
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  /* padding: 10px; */
+}

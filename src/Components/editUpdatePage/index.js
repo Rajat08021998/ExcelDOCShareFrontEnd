@@ -192,7 +192,7 @@ const EditUpdatePage = (props) => {
       DOC_OBJ: fileName,
       DOC_LABEL: headings,
       UPDATED_BY: props.user,
-      NOTE: "",
+      NOTE: "DOC UPDATED",
       OPERATION: "UPDATE",
     };
     let receiverArr = [];
